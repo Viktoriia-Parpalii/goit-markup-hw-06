@@ -414,6 +414,9 @@ ul {
   color: var(--white);
   letter-spacing: 0.02em;
 }
+.social-media-container {
+  margin-right: 80px;
+}
 .footer .social-media {
   display: flex;
   gap: 16px;
@@ -427,7 +430,60 @@ ul {
 .footer-link:focus {
   background-color: var(--green);
 }
-
+.footer-form .form {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+.form-filed {
+  display: flex;
+  flex-direction: column;
+}
+.form-name {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.form-mail {
+  min-width: 268px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: var(--grey);
+  border: 1px solid var(--white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.form-mail::placeholder {
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+.footer-btn {
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.footer-icon-btn {
+  fill: currentColor;
+}
 /**
   |============================
   | Portfolio
