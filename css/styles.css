@@ -672,8 +672,7 @@ ul {
   left: 50%;
   width: 408px;
   min-height: 576px;
-  padding: 24px;
-
+  padding: 72px 24px 24px 24px;
   background-color: var(--dairy);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -719,7 +718,6 @@ ul {
 }
 .modal-title {
   display: block;
-  margin-top: 48px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
